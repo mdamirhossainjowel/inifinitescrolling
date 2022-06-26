@@ -1,9 +1,9 @@
 import React from "react";
-import pagenotfound from "../../Assets/404.jfif";
+
 const PagenotFound = () => {
   return (
-    <div className="min-h-screen">
-      <img src={pagenotfound} alt="pagenotfound" />
+    <div className="min-h-screen mx-auto my-52">
+      <h1 className="text-5xl font-bold text-center">Page Not Found</h1>
     </div>
   );
 };

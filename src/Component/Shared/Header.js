@@ -4,7 +4,6 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import auth from "../../firebase.init";
 import { signOut } from "firebase/auth";
 
-
 const Header = () => {
   const [user] = useAuthState(auth);
   return (
@@ -34,7 +33,7 @@ const Header = () => {
             <li>
               <Link to="/home">Home</Link>
             </li>
-           
+
             {!user ? (
               <li>
                 <Link to="/login">Login</Link>
@@ -55,7 +54,7 @@ const Header = () => {
           <li>
             <Link to="/home">Home</Link>
           </li>
-         
+
           {!user ? (
             <li>
               <Link to="/login">Login</Link>
@@ -67,7 +66,6 @@ const Header = () => {
           )}
         </ul>
       </div>
-      
     </div>
   );
 };

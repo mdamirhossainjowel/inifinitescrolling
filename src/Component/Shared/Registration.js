@@ -9,8 +9,6 @@ import {
 import auth from "../../firebase.init";
 import Loading from "../Shared/Loading";
 
-
-
 const Registration = () => {
   const {
     register,
@@ -28,7 +26,6 @@ const Registration = () => {
   const [signInWithGoogle, usergoogle, loadinggoogle, errorgoogle] =
     useSignInWithGoogle(auth);
 
-
   if (loadingEmailPass || loadinggoogle) {
     return <Loading></Loading>;
   }
@@ -45,7 +42,6 @@ const Registration = () => {
   };
   return (
     <div className="card bg-base-100 shadow-xl mx-6 lg:w-1/2 lg:mx-auto my-14">
-     
       <div className="card-body max-w-lg mx-auto">
         <h2 className="text-2xl font-bold text-accent text-center mb-4">
           REGISTRATION

@@ -9,7 +9,6 @@ import Loading from "../Shared/Loading";
 
 import auth from "../../firebase.init";
 
-
 const Login = () => {
   const {
     register,
@@ -38,7 +37,6 @@ const Login = () => {
   };
   return (
     <div className="card bg-base-100 shadow-xl mx-6 lg:w-1/2 lg:mx-auto my-14">
-     
       <div className="card-body max-w-lg mx-auto">
         <h2 className="text-2xl font-bold text-accent text-center mb-4">
           LOGIN
@@ -64,7 +62,6 @@ const Login = () => {
             ""
           )}
 
-         
           <input
             className="btn btn-accent w-full"
             type="submit"
