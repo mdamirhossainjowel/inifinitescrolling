@@ -3,7 +3,7 @@ import Table from './TableData/Table'
 
 const Home = () => {
     return (
-        <div className='mx-5 lg:mx-20 my-5'>
+        <div className='mx-5 lg:mx-20 mt-5 mb-20'>
           <Table></Table>
         </div>
     )
